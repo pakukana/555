@@ -1,0 +1,140 @@
+body{
+    background-color: #EEEEEE;
+}
+
+header{
+    margin: 0 auto;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+header h3{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0  4px #666666;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    max-width: 100%;
+    width: 580px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration-line: none;
+    color: #3A3A3A;
+}
+
+
+.ayuthaya{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #203A27;
+}
+
+
+.contents1{
+    margin-top:px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contents1 img{
+    transform: rotate(90deg);
+    width: 480px;
+    height: 540px;
+    object-fit: cover;
+}
+
+
+.contents2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5em;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.contents2 h3{
+    font-size: 20px;
+}
+
+.contents2 p{
+    font-size: 18px;
+}
+
+.box{
+    max-width: 100%;
+    width: 300px;
+    margin: 30px auto;
+}
+
+
+footer{
+    background-color: #55537B;
+    margin-top: 120px;
+    margin-bottom: px;
+    font-family: 'Vollkorn', serif;
+}
+
+
+.company{
+    display: flex;
+    justify-content:space-around;
+}
+
+.co{
+    max-width: 100%;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.all{
+    padding-top: 40px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:720px){
+    .contents1 img{
+        width: 220px;
+        height: 290px;
+        object-fit: cover;
+    }
+    
+    .contents2{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5em;
+    
+}
+    
+   .company{
+    flex-direction: column;
+       justify-content: center;
+} 
+    
+}
+
